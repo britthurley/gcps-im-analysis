@@ -1,2 +1,11 @@
-# gcps-im-analysis
-Analysis on the options available for an IM tool in GCPS
+# GCPS Instant Messaging
+
+This project contains all supporting information for running a GCPS Instant Messaging alpha experiment. 
+
+
+##Authors
+
+* Brittany Hurley -  Advisor - Digital Transformation
+
+
+
