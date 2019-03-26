@@ -7,18 +7,30 @@ Summarize why the tool is being evaluated, and high level conclusion of the find
 
 ##Key Considerations
 
-|     Product     | On Prem | Cloud | Open Source | Billingual | ProB Ready |
-|:---------------:|:-------:|:-----:|:-----------:|:----------:|:----------:|
-|      Slack      |         |   X   |             |     X      |            |
-|   Rocket.chat   |         |       |             |            |            |
-| Microsoft Teams |         |   X   |             |     X      |            |
+|        Product        | On Prem | Cloud | Open Source | Billingual | ProB |
+|:---------------------:|:-------:|:-----:|:-----------:|:----------:|:----:|
+|         Slack         |         |   X   |             |     X      |      |
+|      Rocket.chat      |    X    |   X   |      X      |            |      |
+|    Microsoft Teams    |         |   X   |             |     X      |      |
+|     Cisco Jabber      |         |   X   |             |            |      |
+| Blackberry Enterprise |    X    |       |             |            |  X   |
+|      Mattermost       |    X    |   X   |             |     X      |      |
+
+Notes
+* Selecting an on-prem option will very likely mean we cannot use this tool on our personal devices.
+
 
 
 ##Platforms
 
-| Desktop | Android | Apple | Browser |
-|:-------:|:-------:|:-----:|:-------:|
-|    X    |    X    |   X   |         |
+|        Product        | Desktop | Android | Apple | Browser |
+|:---------------------:|:-------:|:-------:|:-----:|:-------:|
+|         Slack         |    X    |    X    |   X   |    X    |
+|      Rocket.chat      |    X    |    X    |   X   |    X    |
+|    Microsoft Teams    |    X    |    X    |   X   |    X    |
+|     Cisco Jabber      |    X    |    X    |   X   |    X    |
+| Blackberry Enterprise |    X    |         |       |    X    |
+|      Mattermost       |    X    |    X    |       |    X    |
 
 
 ##Key Features
