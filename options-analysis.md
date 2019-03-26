@@ -1,9 +1,8 @@
 # GCPS Team Messaging options analysis
 
-<div class="panel panel-warning">
-**Work in Progress!**
-{: .panel-heading}
-<div class="panel-body">
+<aside class="notice">
+This document is a work in progress and should not be considered accurate information
+</aside>
 
 This document is not currently in its final state, and shouold be considered a work in progress
 
