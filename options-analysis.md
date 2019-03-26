@@ -1,13 +1,8 @@
 # GCPS Team Messaging options analysis
 
-<aside class="notice">
+<aside class="warning">
 This document is a work in progress and should not be considered accurate information
 </aside>
-
-This document is not currently in its final state, and shouold be considered a work in progress
-
-</div>
-</div>
 
 
 ## Summary
