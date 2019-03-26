@@ -25,9 +25,9 @@ Summarize why the tool is being evaluated, and high level conclusion of the find
 * Cisco Jabber
     * Free to GCPS, because part of an SSC Pilot.
     * Licenses managed by TSS
-* Blackberry Enterprise 
-    * Cost TBD
-    * 
+* <del>Blackberry Enterprise 
+    * Cost TBD </del>
+    * Blackberry enterprise no longer being considered, as it is no longer a pilot being run by SSC. Replaced by Cisco Jabber
 * Mattermost
     * TBD, in partnership with BPS - Productivity Tools Team
     * Product, and licenses to be managed by BPS Productivity Tools Team
@@ -36,35 +36,35 @@ Summarize why the tool is being evaluated, and high level conclusion of the find
 
 ### Basics
 
-|        Product        | Direct Messaging | Group Messaging | Public Channels | Private Channels | Custom Notification |   Data Retention   |
-|:---------------------:|:----------------:|:---------------:|:---------------:|:----------------:|:-------------------:|:------------------:|
-|    Slack for Teams    |        X         |        X        |        X        |        X         |          X          | up to 10K messages |
-|   Slack Enterprise    |        X         |        X        |        X        |        X         |          X          |    Customizable    |
-|   Rocket.chat Cloud   |        X         |        X        |        X        |        X         |                     |         X          |
-|    Microsoft Teams    |        X         |        X        |        X        |        X         |                     |         X          |
-|     Cisco Jabber      |        X         |        X        |        X        |                  |                     |         X          |
-| Blackberry Enterprise |        X         |        X        |        X        |                  |                     |         X          |
-|      Mattermost       |        X         |        X        |        X        |                  |                     |         X          |
+|           Product           | Direct Messaging | Group Messaging | Public Channels | Private Channels | Custom Notification |   Data Retention   |
+|:---------------------------:|:----------------:|:---------------:|:---------------:|:----------------:|:-------------------:|:------------------:|
+|       Slack for Teams       |        X         |        X        |        X        |        X         |          X          | up to 10K messages |
+|      Slack Enterprise       |        X         |        X        |        X        |        X         |          X          |    Customizable    |
+|      Rocket.chat Cloud      |        X         |        X        |        X        |        X         |                     |         X          |
+|       Microsoft Teams       |        X         |        X        |        X        |        X         |                     |         X          |
+|        Cisco Jabber         |        X         |        X        |        X        |                  |                     |         X          |
+| <del> Blackberry Enterprise |        X         |        X        |        X        |                  |                     |    X     </del>    |
+|         Mattermost          |        X         |        X        |        X        |                  |                     |         X          |
 
 ### Access and Member Management 
 
-|    Screen Sharing     | Single-Channel Guests | Multi-Channel Guests | Shared Workspace Channels | Single Sign-on (See SSO Options) | User Groups |
+|        Product        | Single-Channel Guests | Multi-Channel Guests | Shared Workspace Channels | Single Sign-on (See SSO Options) | User Groups |
 |:---------------------:|:---------------------:|:--------------------:|:-------------------------:|:--------------------------------:|:-----------:|
 |         Slack         |                       |                      |                           |                                  |             |
 |   Slack Enterprise    |           X           |          X           |             X             |                X                 |      X      |
-|   Rocket.chat Cloud   |           X           |          X           |             X             |                                  |             |
-|    Microsoft Teams    |           X           |          X           |             X             |                                  |             |
-|     Cisco Jabber      |           X           |          X           |                           |                                  |             |
-| Blackberry Enterprise |           X           |          X           |                           |                                  |             |
-|      Mattermost       |           X           |          X           |                           |                                  |             |
+|   Rocket.chat Cloud   |                       |                      |                           |                                  |             |
+|    Microsoft Teams    |                       |                      |                           |                                  |             |
+|     Cisco Jabber      |                       |                      |                           |                                  |             |
+| Blackberry Enterprise |                       |                      |                           |                                  |             |
+|      Mattermost       |                       |                      |                           |                                  |             |
 
 #### SSO Options
 
-|    Screen Sharing     | ADFS | Auth0 | G Suite | Last Pass | MS Azure |
+|        Product        | ADFS | Auth0 | G Suite | Last Pass | MS Azure |
 |:---------------------:|:----:|:-----:|:-------:|:---------:|:--------:|
 |         Slack         |      |       |         |           |          |
 |   Slack Enterprise    |  X   |   X   |    X    |     X     |    X     |
-|   Rocket.chat Cloud   |      |       |         |           |          |
+|   Rocket.chat Cloud   |  X   |       |         |           |          |
 |    Microsoft Teams    |      |       |         |           |          |
 |     Cisco Jabber      |      |       |         |           |          |
 | Blackberry Enterprise |      |       |         |           |          |
@@ -74,7 +74,7 @@ Summarize why the tool is being evaluated, and high level conclusion of the find
 
 ### Collaboration
 
-|    Screen Sharing     | Voice Calls | Video Conference | Screen Sharing | File Sharing | Drag & Drop | Whiteboard |
+|        Product        | Voice Calls | Video Conference | Screen Sharing | File Sharing | Drag & Drop | Whiteboard |
 |:---------------------:|:-----------:|:----------------:|:--------------:|:------------:|:-----------:|:----------:|
 |         Slack         |      X      |        X         |       X        |      X       |      X      | 3rd Party  |
 |   Slack Enterprise    |      X      |        X         |       X        |      X       |      X      | 3rd Party  |
@@ -125,7 +125,7 @@ Notes
 |        Product        | Desktop | Android | Apple | Browser |
 |:---------------------:|:-------:|:-------:|:-----:|:-------:|
 |         Slack         |    X    |    X    |   X   |    X    |
-|   Slack Enterprise    |    X    |    X    |   X   |   X|X   |
+|   Slack Enterprise    |    X    |    X    |   X   |    X    |
 |      Rocket.chat      |    X    |    X    |   X   |    X    |
 |    Microsoft Teams    |    X    |    X    |   X   |    X    |
 |     Cisco Jabber      |    X    |    X    |   X   |    X    |
