@@ -5,7 +5,7 @@ This project contains all supporting information for running a GCPS Instant Mess
 
 ## Authors
 
-* Brittany Hurley -  Advisor - Digital Transformation
+* Brittany Hurley -  Advisor - IT Strategy
 
 
 
